@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Testing MDN API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id='input-wrapper'>
+      <input id='query-input' class='center' type='text' placeholder='Find JavaScript Examples...' maxlength='20' autofocus></input>
+      
+      <button id='search-button' class='btn btn-primary'>Search</button>
+    </div>
+
+    <div id='search-official'>
+      <button id='mdn-button' class='btn btn-success'>Official MDN Page</button>
+
+      <button id='stackoverflow-button' class='btn btn-success'>Results on StackOverflow</button>
+    </div>
+
+    <div id='history-wrapper'>
+      <ul id='search-history'>
+        <li class='past-search'>---</li>
+        <li class='past-search'>---</li>
+        <li class='past-search'>---</li>
+      </ul>
+    </div>
+
+    <div id='footer' class='center'>
+      <div class='row'>
+        <div class='col-sm-4'>
+          <img src='assets/mdn-logo.png'></img>
+        </div>
+        <div class='col-sm-4'>
+          <h4>ExampleJS Docs Searcher</h4>
+        </div>
+        <div class='col-sm-4'>
+          <img src='assets/stackoverflow-logo.jpg'></img>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
