@@ -25,7 +25,8 @@ img {
 
 #subtitle {
     color: rgb(132, 155, 171);
-    padding: 0% 5% 55px 5%;
+    font-size: 18px;
+    padding: 5px 5% 55px 5%;
     margin: 0px;
 }
 
