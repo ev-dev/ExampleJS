@@ -18,7 +18,7 @@
 
       <div id='main'>
         <div id='input-wrapper'>
-          <input id='query-input' class='center' type='text' placeholder='ex. Promises or Recursion' maxlength='20' autofocus></input>
+          <input id='query-input' class='center' type='text' placeholder='ex. Promises or Recursion' maxlength='20'></input>
           
           <button id='search-button' class='btn btn-success'>Search</button>
         </div>
@@ -56,5 +56,12 @@
 
     <!--<script src="scripts/jquery-3.2.1.min.js"></script>-->
     <script src="scripts/main.js"></script>
+    <script>
+      $(document).ready(() => {
+        $('#query-input').focus(() => {
+          $('#text-above-footer').hide();
+        });
+      });
+    </script>
   </body>
 </html>
