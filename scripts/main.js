@@ -5,3 +5,5 @@ $(document).ready(() => {
 
   
 });
+
+Promise.
