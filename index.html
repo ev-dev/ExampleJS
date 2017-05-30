@@ -3,7 +3,7 @@
   <head>
     <title>Testing MDN API</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
   </head>
@@ -18,7 +18,7 @@
 
       <div id='main'>
         <div id='input-wrapper'>
-          <input id='query-input' class='center' type='text' placeholder='Find JavaScript Examples...' maxlength='20' autofocus></input>
+          <input id='query-input' class='center' type='text' placeholder='Ex. Recursion or .prototype' maxlength='20' autofocus></input>
           
           <button id='search-button' class='btn btn-success'>Search</button>
         </div>
@@ -41,13 +41,13 @@
 
     <div id='footer' class='center'>
       <div id='text-above-footer' class='center'>
-        <h5 class='description'>
-          Integrates API libraries like MDN  and StackOverflow by fetching result queries and parses information to be displayed in a minimal yet visually appealing way that allows for a great UX.
+        <h5 id='bottom-description'>
+          Integrates API libraries like MDN  and StackOverflow by fetching result queries and parsing<br>information to be displayed in a minimal yet visually appealing way that allows for a great UX.
         </h5>
       </div>
       <div id='footer-main' class='center'>
-        <h4 id='footer-description'>ExampleJS Docs Searcher</h4>
-        <h6 class='description'>
+        <h4 id='footer-title'>ExampleJS Docs Searcher</h4>
+        <h6 id='footer-description'>
             ExampleJS allows a user to search for any JavaScript builtins/libraries and view a number of use cases for the given result. 
         </h6>
       </div>

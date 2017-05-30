@@ -17,11 +17,6 @@ img {
     text-align: center;
 }
 
-.description {
-    color: rgb(162, 185, 191);
-    font-size: 12px;
-}
-
 #title {
     color: white;
     padding: 0%;
@@ -56,7 +51,7 @@ img {
 }
 
 #search-official {
-  padding: 5px 5% 0px 5%;
+    padding: 5px 5% 0px 5%;
 }
 
 #mdn-button {
@@ -69,8 +64,18 @@ img {
     color: rgb(192, 215, 221);
 }
 
-#footer-description {
+#footer-title {
     color: #cdb0d0;
+}
+
+#footer-description {
+    color: rgb(162, 185, 191);
+    font-size: 12px;
+}
+
+#bottom-description {
+    color: rgb(112, 135, 141);
+    font-size: 12px;
 }
 
 #footer {
