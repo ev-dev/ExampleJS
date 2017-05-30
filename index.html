@@ -58,9 +58,13 @@
     <script src="scripts/main.js"></script>
     <script>
       $(document).ready(() => {
-        $('#query-input').focus(() => {
+        $('#query-input').click(() => {
           $('#text-above-footer').hide();
         });
+
+        $('#app').click(() => {
+          $('#text-above-footer').hide();
+        })
       });
     </script>
   </body>
