@@ -54,16 +54,24 @@
       </div>
     </div>
 
-    <!--<script src="scripts/jquery-3.2.1.min.js"></script>-->
+    <script src="scripts/jquery-3.2.1.min.js"></script>
     <script src="scripts/main.js"></script>
     <script>
       $(document).ready(() => {
-        $('#query-input').click(() => {
+        $('#query-input').focus(function() {
+          $('#text-above-footer').hide();
           $('#bottom-description').hide();
         });
 
+        // $('*:not(#query-input)').focus(() => {
+        //   $('#text-above-footer').show();
+        //   $('#bottom-description').show();
+        // })
+
+
         $('#search-button').click(function() {
-          $('#bottom-description').hide();
+          $('#text-above-footer').show();
+          $('#bottom-description').show();
         })
       });
     </script>

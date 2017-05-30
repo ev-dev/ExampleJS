@@ -1,9 +1,7 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 
-$(document).ready(() => {
+// $(document).ready(() => {
 
 
   
-});
-
-Promise.
+// });
