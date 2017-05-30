@@ -12,21 +12,21 @@
     <div id='app' class='container center'>
       <div id='headers'>
         <h1 id='title'>ExampleJS</h1>
-        <h3 id='subtitle'>Search for Javascript Code Examples</h3>
-        <h5 id='about'>Utilizes MDN & StackOverflow APIs</h5>
+        <h3 id='subtitle'>Documentation and Learning Assistant</h3>
+        <h5 id='prompt-text'>Search for Javascript Code Examples</h5>
       </div>
 
       <div id='main'>
         <div id='input-wrapper'>
           <input id='query-input' class='center' type='text' placeholder='Find JavaScript Examples...' maxlength='20' autofocus></input>
           
-          <button id='search-button' class='btn btn-primary'>Search</button>
+          <button id='search-button' class='btn btn-success'>Search</button>
         </div>
 
         <div id='search-official'>
-          <button id='mdn-button' class='btn btn-success'>Official MDN Page</button>
+          <button id='mdn-button' class='btn btn-primary'><b>Results on MDN</b></button>
 
-          <button id='stackoverflow-button' class='btn btn-success'>Results on StackOverflow</button>
+          <button id='stackoverflow-button' class='btn btn-danger'><b>Results on StackOverflow</b></button>
         </div>
 
         <div id='history-wrapper'>
@@ -38,18 +38,18 @@
         </div>
       </div>
     </div>
-    
+
     <div id='footer' class='center'>
-      <div class='row'>
-        <div class='col-sm-4'>
-          <img src='assets/mdn-logo.png'></img>
-        </div>
-        <div class='col-sm-4'>
-          <h4>ExampleJS Docs Searcher</h4>
-        </div>
-        <div class='col-sm-4'>
-          <img src='assets/stackoverflow-logo.jpg'></img>
-        </div>
+      <div id='text-above-footer' class='center'>
+        <h5 class='description'>
+          Integrates API libraries like MDN  and StackOverflow by fetching result queries and parses information to be displayed in a minimal yet visually appealing way that allows for a great UX.
+        </h5>
+      </div>
+      <div id='footer-main' class='center'>
+        <h4 id='footer-description'>ExampleJS Docs Searcher</h4>
+        <h6 class='description'>
+            ExampleJS allows a user to search for any JavaScript builtins/libraries and view a number of use cases for the given result. 
+        </h6>
       </div>
     </div>
 
