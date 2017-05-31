@@ -1,14 +1,12 @@
 {
   "name": "ExampleJS",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "scripts/main.js",
   "scripts": {
+    "scss-compile": "node-sass -rw styles/dev -o styles/prod",
+    "watch": "npm run scss-compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "jquery": "^3.2.1",
     "require": "^2.4.20"
