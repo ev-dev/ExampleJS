@@ -1,0 +1,13 @@
+h1 {
+  color: red; }
+
+@media only screen and (min-width: 45em) {
+  h1 {
+    color: green; } }
+
+/* end query */
+@media only screen and (min-width: 45em) {
+  h1 {
+    color: blue; } }
+
+/* end query */

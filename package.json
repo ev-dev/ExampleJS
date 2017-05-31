@@ -12,6 +12,7 @@
     "require": "^2.4.20"
   },
   "devDependencies": {
+    "node-sass": "^4.5.3",
     "scss-compile": "^0.1.7"
   }
 }
